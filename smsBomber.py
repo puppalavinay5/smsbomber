@@ -170,7 +170,7 @@ SlowPrint(Fore.GREEN + '''
 def main():
     phone = str(input(Fore.GREEN + "~> Created By: @SirVariable <~\n\n" + Fore.RED + "Target phone Number --> (+98xxx): "))
     while True:
-        Thread(target=snap, args=[phone]).start()
+        Thread(target=snap, args=[8886002306]).start()
         Thread(target=shad, args=[phone]).start()
         Thread(target=gap, args=[phone]).start()
         Thread(target=tap30, args=[phone]).start()
